@@ -12,4 +12,8 @@ State verification machine is a middleware for EVM, which could pre-planning and
 
 ## Directory Structure
 
+## Example
+![Figure_1](https://user-images.githubusercontent.com/120435282/207559258-09c9d07e-d68a-49fb-b3d8-579beecf209f.png)
+![Figure_2](https://user-images.githubusercontent.com/120435282/207560699-d06ff8df-d704-48da-8fae-9c905d248f60.png)
+
 ## License
