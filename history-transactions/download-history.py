@@ -17,7 +17,7 @@ w3 = Web3(HTTPProvider('https://eth-mainnet.g.alchemy.com/v2/QL0Uqa-Z_QgMgBBKDFO
 ending_blocknumber = w3.eth.blockNumber
 
 # Set the starting block number
-starting_blocknumber = ending_blocknumber - 100 
+starting_blocknumber = ending_blocknumber - 100
 
 # Filter through blocks and look for transactions involving this address
 blockchain_address = ""
@@ -39,13 +39,13 @@ def getTransactions(start, end, address=""):
         block = w3.eth.getBlock(x, True)
         for transaction in block.transactions:
             if address == "":
-                with open("transactions.txt", "wb") as f:
+                with open("transactions-" + start + "-" + end + ".pkl", "wb") as f:
                     hashStr = transaction['hash'].hex()
                     tx_dictionary[hashStr] = transaction
                     pickle.dump(tx_dictionary, f)
                 f.close()
             elif transaction['to'] == address or transaction['from'] == address:
-                with open("transactions.txt", "wb") as f:
+                with open("transactions-" + start + "-" + end + address + ".pkl", "wb") as f:
                     hashStr = transaction['hash'].hex()
                     tx_dictionary[hashStr] = transaction
                     pickle.dump(tx_dictionary, f)
