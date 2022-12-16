@@ -6,5 +6,3 @@
 @Author      : Wiger
 @version     : 1.0
 '''
-
-from dag.partition import divide_into_independent_subsets
