@@ -14,5 +14,8 @@ with open('transactions.txt', 'rb') as f:
     # read the file as a binary data stream
     data = pickle.load(f)
 
-# Do something with the data
-print(data)
+# Data
+keyList = list(data)
+
+for i in range(0, 10):
+    print(keyList[i] + ": ", data[keyList[i]], "\n")
