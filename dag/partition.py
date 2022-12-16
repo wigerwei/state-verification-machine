@@ -54,12 +54,15 @@ def divide_into_independent_subsets(graph):
   return sccs
 
 graph = {
-  'A': {'B', 'C'},
-  'B': {'D'},
-  'C': {'D'},
-  'D': {'E'},
-  'E': {'F'},
-  'F': {'A'}
+  '1': {'2', '3'},
+  '2': {'4'},
+  '3': {'4'},
+  '4': {'5'},
+  '5': {'6'},
+  '6': {'1'},
+  '7': {'7'},
+  '8': {'9'},
+  '9': {'8'}
 }
 
 sccs = divide_into_independent_subsets(graph)
