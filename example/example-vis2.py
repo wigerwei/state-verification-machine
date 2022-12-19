@@ -14,16 +14,18 @@ import matplotlib.pyplot as plt
 G = nx.DiGraph()
 
 # Add 10 nodes
-for i in range(8):
+for i in range(10):
     G.add_node(i)
 
 # Add directed edges
 G.add_edge(0, 1)
-G.add_edge(1, 5)
-G.add_edge(3, 4)
 G.add_edge(1, 3)
-G.add_edge(6, 5)
-G.add_edge(2, 7)
+G.add_edge(5, 8)
+G.add_edge(7, 9)
+G.add_edge(4, 7)
+G.add_edge(1, 6)
+G.add_edge(1, 3)
+G.add_edge(1, 3)
 
 # Draw the graph
 nx.draw(G, with_labels=True)

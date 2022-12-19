@@ -19,7 +19,7 @@ for i in range(70):
     G.add_node(i)
 
 # Add directed edges
-for i in range(90):
+for i in range(50):
     G.add_edge(random.randint(0,70), random.randint(0,70))
 
 # Draw the graph
