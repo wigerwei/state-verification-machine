@@ -16,6 +16,7 @@ State verification machine is a middleware for EVM, which could pre-planning and
 ├── dag: DAG functions.
 ├── example: All examples of this project, like DAG construction, DAG patition.
 ├── history-transactions: Download, update, load history of transactions from block A to block B.
+├── node: Pre-plan nodes functions.
 ├── transactions-x-x.pkl: Some data of transactions.
 └── README.md: Now you are looking at me.
 ```
