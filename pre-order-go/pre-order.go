@@ -1,0 +1,1 @@
+// Make all transactions ordered before really excuted in Golang.
