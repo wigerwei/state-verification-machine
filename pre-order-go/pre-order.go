@@ -1,1 +1,2 @@
-// Make all transactions ordered before really excuted in Golang.
+// Make all transactions ordered before really excuted in Go.
+// Merry Christmas

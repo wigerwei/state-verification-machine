@@ -20,7 +20,7 @@ State verification machine is a middleware for EVM, which could pre-planning and
 ├── p2p: Make sequencer p2p function available.
 ├── transactions-x-x.pkl: Some data of transactions.
 ├── pre-order-go: Make all transactions ordered before really excuted in Go.
-├── pre-order-python:
+├── pre-order-python: Make all transactions ordered before really excuted in Python.
 └── README.md: Now you are looking at me.
 ```
 
