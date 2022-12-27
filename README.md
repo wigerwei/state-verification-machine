@@ -30,5 +30,6 @@ State verification machine is a middleware for EVM, which could pre-planning and
 
 ## Reference
 - Optimism: https://github.com/ethereum-optimism/optimism
+- Block-STM - Scaling Blockchain Execution by Turning Ordering Curse to a Performance Blessing: https://arxiv.org/abs/2203.06871
 
 ## License
