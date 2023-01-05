@@ -6,3 +6,12 @@
 @Author      : Wiger
 @version     : 1.0
 '''
+
+type Config struct {
+	L1 L1EndpointSetup
+	L2 L2EndpointSetup
+
+	Driver driver.Config
+
+	Rollup rollup.Config
+}
